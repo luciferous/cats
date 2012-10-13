@@ -6,7 +6,6 @@ cats.js
 Categories for Javascript adapted from Haskell's `Control.Monad`.
 
 ```javascript
-// See: http://jsfiddle.net/enQyg/3.
 var main = Monad.do
   (print("3")) (pause)
   (print("2")) (pause)
@@ -17,5 +16,8 @@ var main = Monad.do
 
 main.run();
 ```
+
+Try it out: http://jsfiddle.net/enQyg/3.
+
 
 BSD licensed.
