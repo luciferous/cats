@@ -3,7 +3,7 @@ cats.js
 
 *(This is an alpha product.)*
 
-Categories for Javascript adapted from Haskell's `Control.Monad`.
+Categories for Javascript adapted from Haskell's `Control` modules.
 
 ```javascript
 var main = Monad.do
@@ -19,5 +19,14 @@ main.run();
 
 Try it out: http://jsfiddle.net/enQyg/3.
 
+### More Examples
+
+[Drag and drop](http://jsfiddle.net/jHX4k/).
+
+```javascript
+var dragdrop = function(x) {
+  return click(x).then(drag);
+}
+```
 
 BSD licensed.
